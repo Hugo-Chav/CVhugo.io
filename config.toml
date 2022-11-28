@@ -1,0 +1,235 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "fr"
+title = "Mon CV"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Virom_"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "orange"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Hugo CHAVENEAU"
+        tagline = "IT Student"
+        avatar = "image.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "France"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "07 50 86 12 47"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "chaveneau.hugo@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.yourwebsite.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Informatique"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "CSS/HTML5/PHP"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "C/C++"
+        
+
+        [[params.skills.list]]
+        title = "Professionelle"
+        [[params.skills.list.items]]
+        details = "Travail d'équipe"
+        
+        [[params.skills.list.items]]
+        details = "Comprendre les besoin d'un client"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bac Technologique"
+        university = "Lycee Jacques de Vaucanson"
+        dates = "2021 - 2022"
+        
+         [[params.education.list]]
+        degree = "Permis de conduire"
+        dates = "31 mars 2022"
+        
+         [[params.education.list]]
+        degree = "Certification PIX"
+        dates = "mai 2022"
+        
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Moyen"
+        [[params.languages.list]]
+        name = "Espagnole"
+        level = "Moyen"
+        [[params.languages.list]]
+        name = "Français"
+        level = "Maternelle"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Informatique"
+        [[params.interests.list]]
+        name = "Nouvelles technologies"
+        [[params.interests.list]]
+        name = "Jeux vidéo"
+        [[params.interests.list]]
+        name = "Véhicules"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Je suis étudiant à l'I.U.T de Vannes en spécialité Informatique. J'ai 18 ans, j'aime bien les nouvelles technologies, la programmation et les voitures de collection."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Agent de quais"
+        dates = "Juillet-Août 2022"
+        company = "Kuehne & Nagel"
+        details = "J'ai travailler pendant deux mois en tant qu'agent de quai, je m'occuper de ranger le contenu des clients dans l'entrepôt."
+        
+        
+
+        [[params.experience.list]]
+        title = "Assistant informaticien"
+        dates = "2019"
+        company = "Vermon"
+        details = "J'assisté les informaticien dans plusieurs tâche"
+        [[params.experience.list.items]]
+        details = "J'ai installer le matériel pour crée un nouveau bureau dédié au service informatique"
+        [[params.experience.list.items]]
+        details = "J'ai installer Windows 10 sur tout les PC de ce nouveau bureau"
+         [[params.experience.list.items]]
+        details = "J'ai appris à faire une calculatrice en no-code"
+	[[params.experience.list.items]]
+        details = "J'ai appris à comprendre une fiche de paye"
+        
+
+      [[params.experience.list]]
+        title = "Bénévole"
+        dates = "Depuis octobre 2021"
+        company = "Vouvray Animation"
+        details = "Je suis bénévole dans une association, je participe à l'organisation des activités, j'installe le matériel et je vends la nourriture aux participants."
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "iThermo"
+        meta = "Projet de lycée"
+        tagline = "Notre projet consister à la création d'un thermostat connecter ainsi que son site web, ce qui nous permetter de contrôler la température de notre maison à l'aide de plusieurs scénarios disponible. On pouvait également créer des scénario via le site web. "
+
+      
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+       
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"

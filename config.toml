@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "http://https://github.com/Hugo-Chav/CVhugo.io/ "
 languageCode = "fr"
 title = "Mon CV"
 theme = "hugo-devresume-theme"
